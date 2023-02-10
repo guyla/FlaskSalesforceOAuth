@@ -1,7 +1,7 @@
 
 # FlaskSalesforceOAuth0  
 Flask + Salesforce Connected App + Simple Salesforce.
-This code is an end to end OAuth0 authentication based on [Salesforce-Oauth2-REST-Metadata-API-Python-Examples](https://github.com/jctissier/Salesforce-Oauth2-REST-Metadata-API-Python-Examples) 
+This code is an end to end OAuth authentication based on [Salesforce-Oauth2-REST-Metadata-API-Python-Examples](https://github.com/jctissier/Salesforce-Oauth2-REST-Metadata-API-Python-Examples) 
 
 This code is only for "quick and dirty" proof-of-concept purposes, and not a production code.
 
