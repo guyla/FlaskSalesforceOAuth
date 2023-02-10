@@ -1,10 +1,10 @@
-import sys
+# _author_ = "Guy Leibovitz"
+# _github_ = "https://github.com/guyla/FlaskSalesforceOAuth0"
+
 from flask import Flask, redirect, url_for, json, session, request
 from flask_cors import CORS
-import urllib.parse as urlparse
 from simple_salesforce import Salesforce
 from salesforce_user_agent_flow import SalesforceOAuth2
-from OpenSSL import SSL
 
 # Configuration:
 
@@ -43,7 +43,7 @@ def index():
        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
      </head>
      <body align="center"> 
-     <h1>Connect Salesforce to Nominal</html>
+     <h1>Connect to Salesforce</html>
     <div style="margin:40px">
     <button type="button" class="btn btn-primary" onclick="location.href='/redir';"> Connect to Salesforce</button>
     </div>
